@@ -1,0 +1,13 @@
+nav {
+    height: 10%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+#title {
+    color: white;
+    font-size: 24px;
+    margin: 10px;
+}

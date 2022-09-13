@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "CloudWebsite"
+    }
+  },
+  "defaultProject": "CloudWebsite",
+  "cli": {
+    "analytics": "3f374f11-867e-4cf4-b638-ccc8c748f736"
+  }
 }
