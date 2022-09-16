@@ -1,13 +1,13 @@
 nav {
-    height: 10%;
+    height: 7%;
     display: flex;
     justify-content: left;
     align-items: center;
-    background-color: var(--primary-color);
+    background-color: white;
 }
 
 #title {
-    color: white;
+    color: grey;
     font-size: 24px;
     margin: 10px;
 }
