@@ -1,6 +1,7 @@
 :host {
     height: 100%;
     display: flex;
+    background-color: var(--primary-color);
 }
 
 .card {

@@ -1,0 +1,22 @@
+:host {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+    height: 100%;
+    flex-basis: 15%;
+    background-color: var(--secondary-color);
+}
+
+ul li {
+    flex-grow: 1;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+ul li:hover {
+    background-color: #cf6a87;
+}
