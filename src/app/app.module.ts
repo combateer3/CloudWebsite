@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { FileBrowserComponent } from './file-browser/file-browser.component';
-import { FileSidenavComponent } from './file-browser/file-sidenav/file-sidenav.component';
+import { FileToolbarComponent } from './file-browser/file-toolbar/file-toolbar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { FileSidenavComponent } from './file-browser/file-sidenav/file-sidenav.c
     NavbarComponent,
     LoginComponent,
     FileBrowserComponent,
-    FileSidenavComponent
+    FileToolbarComponent
   ],
   imports: [
     BrowserModule,

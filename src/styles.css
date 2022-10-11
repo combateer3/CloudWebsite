@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 :root {
-    --primary-color: #546de5;
-    --secondary-color: #c44569;
+    --primary-color: rgb(84, 109, 229);
+    --secondary-color: rgb(196, 69, 105);
+    --primary-color-hover: rgba(84, 109, 229, 0.5);
+    --secondary-color-hover: rgba(196, 69, 105, 0.8);
 }
 
 * {
