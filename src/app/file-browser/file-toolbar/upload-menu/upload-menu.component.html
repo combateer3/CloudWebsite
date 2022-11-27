@@ -1,0 +1,8 @@
+<button (click)="toggleModal()">Upload</button>
+
+<div class="modal" *ngIf="open">
+    <div class="modal-content" #modalContent>
+        <span class="close" (click)="closeModal()">&times;</span>
+        <p>Modal stuff</p>
+    </div>
+</div>

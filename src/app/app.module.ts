@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { FileBrowserComponent } from './file-browser/file-browser.component';
 import { FileToolbarComponent } from './file-browser/file-toolbar/file-toolbar.component';
+import { UploadMenuComponent } from './file-browser/file-toolbar/upload-menu/upload-menu.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FileToolbarComponent } from './file-browser/file-toolbar/file-toolbar.c
     NavbarComponent,
     LoginComponent,
     FileBrowserComponent,
-    FileToolbarComponent
+    FileToolbarComponent,
+    UploadMenuComponent
   ],
   imports: [
     BrowserModule,
