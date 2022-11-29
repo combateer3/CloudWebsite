@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { StorageFile } from './file'
 
 @Component({
   selector: 'app-file-browser',
@@ -7,7 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FileBrowserComponent implements OnInit {
 
-  constructor() { }
+  files: StorageFile[] = [
+    new StorageFile("./file1.txt", "./image1.png"),
+    new StorageFile("./file2.txt", "./image2.png"),
+    new StorageFile("./file3.txt", "./image3.png")
+  ];
+
+  constructor() {}
 
   ngOnInit(): void {
   }

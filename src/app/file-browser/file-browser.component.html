@@ -1,2 +1,9 @@
-<app-file-toolbar></app-file-toolbar>
-<p>file browser</p>
+<!-- <app-file-toolbar></app-file-toolbar> -->
+
+<div class="file-list">
+    <div class="file-item" *ngFor="let file of files">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png" alt="">
+        <!-- <img src={{file.thumbnail}} alt=""> -->
+        <p>{{file.url}}</p>
+    </div>
+</div>
